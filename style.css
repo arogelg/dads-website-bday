@@ -21,28 +21,29 @@ body, html {
     position: relative;
 }
 
-/* Blurred background for text */
+/* Subtle text background */
 .text-box {
-    background: rgba(255, 255, 255, 0.3); /* Transparent white */
-    backdrop-filter: blur(10px); /* Adds the blur effect */
+    background: rgba(0, 0, 0, 0.5); /* Light transparent dark */
     padding: 20px 40px;
     border-radius: 10px;
     max-width: 600px;
     text-align: center;
+    color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Title Styling */
 .title {
     font-size: 4rem;
     font-weight: 700;
-    color: black;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 10px;
 }
 
 /* Subtitle Styling */
 .subtitle {
     font-size: 1.5rem;
-    color: black;
     line-height: 1.5;
 }
 
@@ -58,6 +59,7 @@ body, html {
         padding: 15px 30px;
     }
 }
+
 
 
 /*GALLERY STYLE*/
