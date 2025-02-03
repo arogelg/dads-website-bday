@@ -3,23 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería</title>
+    <title>Galería de amigos</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+
+
+    <!-- Menu Button -->
+    <div class="menu-button" onclick="toggleMenu()">
+        ☰
+    </div>
+
+    <!-- Sidebar Menu -->
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="toggleMenu()">×</button>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pages/familia.html">Familia</a></li>
+            <li><a href="pages/amigos.html">Amigos</a></li>
+            <li><a href="pages/desobedientes.html">Desobedientes</a></li>
+        </ul>
+    </div>
+
     <h1>Galería de Recuerdos</h1>
     <div class="gallery-container">
         <div class="gallery-item">
-            <img src="../images/img1.jpg" alt="Recuerdo 1">
-            <p>Este fue un día increíble...</p>
+            <img src="../images/Jose.jpg" alt="Jose">
+            <p>Estimado Alex. Este día comenzó nuestra experiencia espiritual donde compartirnos momentos que nos 
+                hacen hermanos en Cristo. Te deseo que sigas pescando hombres como lo hizo Pedro y que Dios te siga 
+                colmando de bendiciones así como el espíritu Santo actuando en tu corazón</p>
         </div>
         <div class="gallery-item">
-            <img src="../images/img2.jpg" alt="Recuerdo 2">
-            <p>Siempre recordaremos este momento...</p>
+            <img src="../images/Pier.jpg" alt="Pier">
+            <p>Querido compadre deseo que tengas feliz cumpleaños 🎈🎁🎂🎊🎉  que Dios conceda todos los anhelos de tu corazón.
+                 Tqm fuerte abrazo!!!</p>
         </div>
         <div class="gallery-item">
-            <img src="../images/img3.jpg" alt="Recuerdo 3">
-            <p>Nos reímos tanto ese día...</p>
+            <img src="../images/Rompe-costillas.jpg" alt="Rompe costillas">
+            <p>Alex. Muchísimas felicidades y muchas gracias por tu amistad. Siempre que nos reunimos la pasamos súper 
+                bien. Un abrazo Rompe-costillas con cariño</p>
         </div>
     </div>
 </body>
