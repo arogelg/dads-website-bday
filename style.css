@@ -64,20 +64,12 @@ body, html {
 
 /*GALLERY STYLE*/
 
-/* Reset styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Light Gray Background */
 body {
-    font-family: "Montserrat", sans-serif;
-    background-color: #f5f5f5;
-    text-align: center;
+    background-color: #f0f0f0;
 }
 
-/* Page Title */
+/* Centered Page Title */
 .page-title {
     font-size: 2.5rem;
     margin: 30px 0;
@@ -100,7 +92,7 @@ body {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds depth */
 }
 
 /* Title Above Each Image */
@@ -132,9 +124,13 @@ body {
     color: #555;
     line-height: 1.6;
     flex: 1;
+    background: rgba(255, 255, 255, 0.8); /* Light background for readability */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05); /* Soft shadow */
 }
 
-/* Alternating Image Layout */
+/* Alternating Layout */
 .gallery-item:nth-child(even) .gallery-content {
     flex-direction: row-reverse;
 }
@@ -150,70 +146,6 @@ body {
         width: 80%;
         max-width: 250px;
     }
-}
-
-/* Sidebar & Menu Button (Keeps It on Every Page) */
-.menu-button {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    font-size: 2rem;
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    z-index: 1000;
-}
-
-.sidebar {
-    position: fixed;
-    top: 0;
-    left: -250px;
-    width: 250px;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.9);
-    backdrop-filter: blur(8px);
-    padding-top: 60px;
-    transition: left 0.3s ease-in-out;
-    z-index: 999;
-}
-
-.close-btn {
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    font-size: 2rem;
-    background: none;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-.sidebar ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-
-.sidebar ul li {
-    padding: 15px 0;
-}
-
-.sidebar ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-    transition: color 0.3s ease-in-out;
-}
-
-.sidebar ul li a:hover {
-    color: #ffcc00;
-}
-
-.sidebar.active {
-    left: 0;
 }
 
 /*MENU*/
