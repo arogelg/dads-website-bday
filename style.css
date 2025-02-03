@@ -64,9 +64,11 @@ body, html {
 
 /*GALLERY STYLE*/
 
+
+
 /* Light Gray Background */
 body {
-    background-color: #f0f0f0;
+    background: linear-gradient(to bottom, #f7f1e3, #ffdde1); /* Light pink & peach */
 }
 
 /* Centered Page Title */
@@ -147,6 +149,45 @@ body {
         max-width: 250px;
     }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@700&display=swap');
+
+/* Fun Font for Names */
+.gallery-item h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 2rem;
+    color: #ff4081;
+}
+
+@keyframes bounceIn {
+    0% { transform: scale(0.8); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.gallery-content img {
+    animation: bounceIn 0.8s ease-out;
+}
+
+/* Confetti Animation */
+@keyframes confetti-fall {
+    0% { transform: translateY(-100vh) rotate(0deg); opacity: 1; }
+    100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+}
+
+.confetti {
+    position: fixed;
+    top: -10px;
+    width: 10px;
+    height: 10px;
+    background: red;
+    opacity: 0.7;
+    animation: confetti-fall 4s linear infinite;
+}
+
+.confetti:nth-child(odd) { background: yellow; }
+.confetti:nth-child(even) { background: blue; }
+
+
 
 /*MENU*/
 
