@@ -7,14 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Menu Button -->
+    <div class="menu-button" onclick="toggleMenu()">
+        ☰
+    </div>
+
+    <!-- Sidebar Menu -->
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="toggleMenu()">×</button>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pages/familia.html">Familia</a></li>
+            <li><a href="pages/amigos.html">Amigos</a></li>
+            <li><a href="pages/desobedientes.html">Desobedientes</a></li>
+        </ul>
+    </div>
+
     <div class="hero">
         <div class="text-box">
             <h1 class="title">¡Feliz Cumpleaños!</h1>
             <p class="subtitle">
                 Te amamos y queremos celebrar este día especial contigo.<br>
-                Este website es un testimonio de lo amado que eres. ¡Disfrútalo!
+                Este website es un testimonio de cuánto significas para nosotros. ¡Disfrútalo!
             </p>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
