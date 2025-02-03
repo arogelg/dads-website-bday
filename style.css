@@ -68,8 +68,10 @@ body, html {
 
 /* Light Gray Background */
 body {
-    background: linear-gradient(to bottom, #ececec, #0056b3); /* White to Royal Blue */
+    background: linear-gradient(to bottom, #0056b3, #4a90e2, #ffffff);
 }
+
+
 
 /* Centered Page Title */
 .page-title {
@@ -99,9 +101,11 @@ body {
 
 /* Title Above Each Image */
 .gallery-item h2 {
+    font-family: "Poppins", sans-serif;
     font-size: 2rem;
-    margin-bottom: 10px;
-    color: #333;
+    color: #003366; /* Gold (but softer, more elegant) */
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for readability */
 }
 
 /* Image and Text Layout */
