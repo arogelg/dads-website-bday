@@ -68,7 +68,7 @@ body, html {
 
 /* Light Gray Background */
 body {
-    background: linear-gradient(to bottom, #f7f1e3, #ffdde1); /* Light pink & peach */
+    background: linear-gradient(to bottom, #ececec, #0056b3); /* White to Royal Blue */
 }
 
 /* Centered Page Title */
@@ -150,13 +150,13 @@ body {
     }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Playfair+Display:wght@700&display=swap');
 
-/* Fun Font for Names */
 .gallery-item h2 {
-    font-family: "Pacifico", cursive;
+    font-family: "Poppins", sans-serif;
     font-size: 2rem;
-    color: #ff4081;
+    color: #ffd700; /* Gold */
+    text-transform: uppercase;
 }
 
 @keyframes bounceIn {
@@ -181,11 +181,12 @@ body {
     height: 10px;
     background: red;
     opacity: 0.7;
-    animation: confetti-fall 4s linear infinite;
+    animation: confetti-fall 10s linear infinite;
 }
 
-.confetti:nth-child(odd) { background: yellow; }
-.confetti:nth-child(even) { background: blue; }
+.confetti:nth-child(odd) { background: #ffd700; } /* Gold */
+.confetti:nth-child(even) { background: #0056b3; } /* Blue */
+.confetti:nth-child(3n) { background: #ff0000; } /* Red */
 
 
 
