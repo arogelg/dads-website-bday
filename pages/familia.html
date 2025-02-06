@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería de familia</title>
+    <title>Galería de Familia</title>
     <link rel="stylesheet" href="../style.css">
+    <script src="../script.js" defer></script>
 </head>
 <body>
 
+
+    <!-- Background Overlay -->
+    <div class="background-overlay"></div>
 
     <!-- Menu Button -->
     <div class="menu-button" onclick="toggleMenu()">
@@ -18,27 +22,221 @@
     <div class="sidebar" id="sidebar">
         <button class="close-btn" onclick="toggleMenu()">×</button>
         <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="pages/familia.html">Familia</a></li>
-            <li><a href="pages/amigos.html">Amigos</a></li>
-            <li><a href="pages/desobedientes.html">Desobedientes</a></li>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="familia.html">Familia</a></li>
+            <li><a href="amigos.html">Amigos</a></li>
+            <li><a href="desobedientes.html">Desobedientes</a></li>
         </ul>
     </div>
-    
-    <h1>Galería de Recuerdos</h1>
+
+    <!-- Page Title -->
+    <h1 class="page-title">Galería de Familia</h1>
+
+    <!-- Gallery Section -->
     <div class="gallery-container">
         <div class="gallery-item">
-            <img src="../images/img1.jpg" alt="Recuerdo 1">
-            <p>Este fue un día increíble...</p>
+            <h2>Pau</h2>
+            <div class="gallery-content">
+                <img src="../images/Maria.jpg" alt="Maria">
+                <p>Amigo, te amo demasiado y eres mi modelo a seguir. Te agradezco por todos los bellos momentos, las 
+                    risas, y las lecciones que me haz dado, se que hemos vivido momentos difíciles pero gracias a el
+                     amor que nos tenemos, siempre superamos todo juntos y hoy en tu día espero que te la pases súper
+                      mega increíble y súper divertido</p>
+            </div>
         </div>
         <div class="gallery-item">
-            <img src="../images/img2.jpg" alt="Recuerdo 2">
-            <p>Siempre recordaremos este momento...</p>
+            <h2>Emi</h2>
+            <div class="gallery-content">
+                <img src="../images/Emi.jpg" alt="Emi">
+                <p>Amigo: 
+                    Hoy es un día especial para festejar y celebrar otro año de vida. Gracias por siempre compartir y por 
+                    bendecirme con tus enseñanzas y tus logros te amo mucho. 
+                </p>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <h2>Angel</h2>
+            <div class="gallery-content">
+                <img src="../images/Angel.jpg" alt="Angel">
+                <p>Gracias por ser ejemplo y apoyo incondicional, eres el mejor Tío!!! Abrazote 😎🙏</p>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <h2>Sol</h2>
+            <div class="gallery-content">
+                <img src="../images/Sol.jpg" alt="Sol">
+                <p>Mucha felicidades amigo , te quiero mucho , disfruta tu cumpleaños! Abrazo fuerte amigo.</p>
+            </div>
         </div>
         <div class="gallery-item">
-            <img src="../images/img3.jpg" alt="Recuerdo 3">
-            <p>Nos reímos tanto ese día...</p>
+            <h2>Re</h2>
+            <div class="gallery-content">
+                <img src="../images/Regina.jpg" alt="Regina">
+                <p>Hoy es un día especial porque celebramos a una de las personas más importantes en mi vida. 
+                    Quiero agradecerte de corazón por estar siempre ahí, por tu apoyo incondicional y por los 
+                    momentos que hemos compartido. Tu cariño y tus consejos significan mucho para mí, y me 
+                    siento muy afortunada de tener un tío como tú.
+
+                    Espero que este nuevo año traiga mucha felicidad, salud y todo lo bueno que mereces.
+                    
+                    Te amo, feliz vida 🤍
+                    
+                    Con todo mi cariño,
+                    Re</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <h2>Diego</h2>
+            <div class="gallery-content">
+                <img src="../images/Diego.jpg" alt="Diego">
+                <p>Querido Alex. Te deseo lo mejor este cumpleaños. De parte de tu hijo adoptivo que te ama 
+                    con todo su corazón. Que tengas un año lleno de bendiciones. Te mando un fuerte abrazo.
+                    •⁠  ⁠Atentamente: Diego/p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <h2>Diego</h2>
+            <div class="gallery-content">
+                <img src="../images/Diego.jpg" alt="Diego">
+                <p>Querido Alex. Te deseo lo mejor este cumpleaños. De parte de tu hijo adoptivo que te ama 
+                    con todo su corazón. Que tengas un año lleno de bendiciones. Te mando un fuerte abrazo.
+                    •⁠  ⁠Atentamente: Diego
+                </p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <h2>Sofi</h2>
+            <div class="gallery-content">
+                <img src="../images/Sofi.jpg" alt="Sofi">
+                <p>
+                    Padrino: 
+                        Primero que nada muchas felicidades, espero te la pases muy muy bonito. 
+                        Celebro tu vida siempre! 
+                        Le doy gracias a Dios por tenerlos en mi vida. 
+                        Sabes que siempre estarás en mi corazón, gracias por su cariño y apoyo 
+                        que siempre nos dan!
+                        Te mando un abrazote, te quiero muchísimo. 
+                </p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <h2>Liz</h2>
+            <div class="gallery-content">
+                <img src="../images/Liz.jpg" alt="Liz">
+                <p>
+                    Feliz de festejar con mi persona favorita un año más de vida. 
+                    Amado hijo q tengas muchos festejos con la salud y paz que estas 
+                    viviendo ahora. Q todo sea gozo y bienestar absoluto. 🙏
+                </p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <h2>Sofi</h2>
+            <div class="gallery-content">
+                <img src="../images/Sofi.jpg" alt="Sofi">
+                <p>
+                    Padrino: 
+                        Primero que nada muchas felicidades, espero te la pases muy muy bonito. Celebro tu vida siempre! 
+                        Le doy gracias a Dios por tenerlos en mi vida. 
+                        Sabes que siempre estarás en mi corazón, gracias por su cariño y apoyo que siempre nos dan!
+                        Te mando un abrazote, te quiero muchísimo. 
+                </p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <h2>Liz</h2>
+            <div class="gallery-content">
+                <img src="../images/Liz.jpg" alt="Liz">
+                <p>
+                    Padrino: 
+                        Primero que nada muchas felicidades, espero te la pases muy muy bonito. Celebro tu vida siempre! 
+                        Le doy gracias a Dios por tenerlos en mi vida. 
+                        Sabes que siempre estarás en mi corazón, gracias por su cariño y apoyo que siempre nos dan!
+                        Te mando un abrazote, te quiero muchísimo. 
+                </p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <h2>Sandy</h2>
+            <div class="gallery-content">
+                <img src="../images/Sandy.jpg" alt="Sandy">
+                <p>
+                    Hermano, 
+
+                    En este día tan especial, quiero recordarte cuánto te quiero y cuánto admiro la persona que eres. Dios te ha 
+                    bendecido con un corazón bondadoso, una fe inquebrantable y una hermosa familia que refleja todo el amor que 
+                    siembras a tu alrededor. Siempre has sido un ejemplo para mí, no solo como hermano mayor, sino como alguien 
+                    que nunca deja de cuidar a los demás, especialmente a nuestros papás. Aunque la distancia nos separa, quiero 
+                    que sepas que te extraño muchísimo y que siempre estás en mi corazón y en mis oraciones. Le pido a Dios que 
+                    siempre te de salud, alegría y bendiciones, y que este nuevo año de vida esté lleno de momentos hermosos 
+                    junto a tu familia. ¡Feliz cumpleaños!
+                    
+                    Tu hermana 
+                </p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <h2>Sandy</h2>
+            <div class="gallery-content">
+                <img src="../images/Sandy.jpg" alt="Sandy">
+                <p>
+                    Hola hijo quiero que sepas que deseo lo mejor que te la pases increíble siempre, que te amo, que eres mi ídolo.
+                    Te mando un super abrazo con todo mi amor.
+                    
+                </p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <h2>Sandy</h2>
+            <div class="gallery-content">
+                <img src="../images/Sandy.jpg" alt="Sandy">
+                <p>
+                    Hola hijo quiero que sepas que deseo lo mejor que te la pases increíble siempre, que te amo, que eres mi ídolo.
+                    Te mando un super abrazo con todo mi amor.
+                    
+                </p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <h2>Tahnee</h2>
+            <div class="gallery-content">
+                <img src="../images/Tahnee.jpg" alt="Tahnee">
+                <p>
+                    Hermano, hoy celebró tu vida. Deseo que siempre estés lleno de amor, paz, gozo y salud. Gracias por iluminar 
+                    nuestras vidas. Te amo. Trf🤍
+                    
+                </p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <h2>Ale</h2>
+            <div class="gallery-content">
+                <img src="../images/Ale.jpg" alt="Ale">
+                <p>
+                    Tio muchas felicidades, espero que sea un día muy hermoso para ti lleno de alegría y felicidad 🥳.
+                    
+                </p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <h2>Ale</h2>
+            <div class="gallery-content">
+                <img src="../images/Ale.jpg" alt="Ale">
+                <p>
+                    Que al despertar en este tu día de cumpleaños 🎁 estés lleno de felicidad, amor y salud , disfruta 
+                    todo tu día y muchos más , te lo mereces   , eres un gran hombre en todo el sentido de la palabra ,
+                     generoso   ,cariñoso, apoyador , eres el artífice de tu familia , un excelente esposo, padre , hijo ,
+                      amigo , no tengo más calificativos de tu gran personalidad, eres y serás un triunfador de vida 
+                      familiar y laboral, te amamos como si fueses nuestro hijo , que Dios que tanto te quiere , te siga 
+                      abrigando y guiando por el sendero de la dicha y felicidad , goza tu día al lado de tu familia que yo sé que
+                       te aman igual que nosotros, felicidades ALEX 🎈 
+                    
+                </p>
+            </div>
         </div>
     </div>
+
 </body>
 </html>
